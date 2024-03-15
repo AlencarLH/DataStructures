@@ -24,9 +24,10 @@ class Stack
 
     def show_stack()
         for i in @stack
-            puts(i)
+            puts("Elements in the stack:")
+            puts("-> #{i}")
         end
-        puts("\n Stack size: #{@stack.length}")
+        puts("Stack size: #{@stack.length}")
     end
     
 end
